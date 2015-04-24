@@ -3,11 +3,11 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "mash"
-  spec.version       = '0.0.1'
+  spec.name          = "maccman-mash"
+  spec.version       = '0.0.2'
   spec.authors       = ["Alex MacCaw"]
-  spec.email         = ["info@eribium.org"]
-  spec.summary       = %q{A Mash library.}
+  spec.email         = ["alex@clearbit.com"]
+  spec.summary       = %q{A fork of a Mash library.}
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
